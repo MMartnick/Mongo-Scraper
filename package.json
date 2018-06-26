@@ -1,33 +1,24 @@
 {
-  "name": "mongo-scraper",
+  "name": "bugscraper",
   "version": "1.0.0",
-  "description": "Mongo based web scraper",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Martnick1/Mongo-Scraper.git"
-  },
-  "author": "Matthew Martnick",
+  "description": "A web scraping app that uses mongo for storage",
+  "main": "server.js",
+  "author": "Tobey Ross",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Martnick1/Mongo-Scraper/issues"
+    "url": "https://github.com/tobross/bugscraper/issues"
   },
-  "homepage": "https://github.com/Martnick1/Mongo-Scraper#readme",
+  "homepage": "https://github.com/tobross/bugscraper#readme",
   "dependencies": {
-    "axios": "^0.18.0",
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.18.2",
     "cheerio": "^1.0.0-rc.2",
-    "express": "^4.16.3",
+    "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.10",
-    "mongo": "^0.1.0",
-    "mongod": "^2.0.0",
-    "mongoose": "^5.1.5",
+    "mongodb": "^3.0.10",
+    "mongoose": "^5.0.0-rc2",
     "morgan": "^1.9.0",
-    "request": "^2.87.0",
-    "require": "^2.4.20"
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "serve-favicon": "^2.4.5"
   }
 }
